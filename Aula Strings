@@ -1,0 +1,84 @@
+// let array
+// console.log('a. ', array) //nao tem nada 
+
+// array = null
+// console.log('b. ', array) //esta vazio 
+
+// array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13] //uma lista que contem numeros de 3 a 13
+// console.log('c. ', array.length)
+
+// let i = 0
+// console.log('d. ', array[i]) //aqui ele esta dizendo que quer que apareça o numero na primeira posicao com a variavel i
+
+// array[i+1] = 19
+// console.log('e. ', array) //é colocado o numero 19 na posicao 1 
+
+// const valor = array[i+6] //é posto na posicao 6 o numero 9
+// console.log('f. ', valor)
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+// const frase = prompt("Digite uma frase")
+
+// console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length) //Vai deixar tudo em maiusculo e vai substituir as letras A por I "Subi num ônibus em Mirrocos" e contar quantas letras tem a frase
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+// let nome = prompt("Qual o seu nome?")
+
+// let usuario = prompt("Digite o seu email")
+
+// console.log("O e-mail", usuario, "foi cadastrado com sucesso. Seja bem vindo(a)", nome)
+
+// ===========================================================================================================================
+
+// const comidas = ["pizza", "hamburguer", "Xis", "miojo", "batata"];
+// console.log("Essa sao as minhas comidas preferidas", comidas);
+
+// console.log( comidas[0]);
+// console.log( comidas[1]);
+// console.log( comidas[2]);
+// console.log( comidas[3]);
+// console.log( comidas[4]);
+
+// comidas[1] = prompt("Qual a sua comida preferida");
+// console.log( comidas);
+
+// --------------------------------------------------------------------------------------------------------------
+
+// const ordem = [];
+
+// let listaDeTarefas = ordem;
+
+// let tasrefa1 = prompt(" me diga uma tarefa ");
+// listaDeTarefas.push(tasrefa1);
+
+// let tarefa2 = prompt(" me diga uma tarefa ");
+// listaDeTarefas.push(tarefa2);
+
+// let tarefa3 = prompt(" me diga uma tarefa ")
+// listaDeTarefas.push(tarefa3);
+
+// console.log(listaDeTarefas);
+
+// listaDeTarefas.splice(Number(prompt("me diga a tarefa qua ja realizou em 0, 1 ou 2")), 1);
+
+// console.log(listaDeTarefas);
+
+// desafios ================================================================================================
+//exercicio 1
+
+// const frase = prompt("fale uma frase")
+
+// const blabla = frase.split(" ")
+// console.log(blabla)
+
+// //exercicio 2
+
+// let frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"] 
+
+// console.log(frutas.indexOf(prompt("fale a fruta que dejseja encontrar").toString()))
+// console.log(frutas.length)
+
+
+
